@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#while vcpkg is not used *yet* I like to have in just in case
+cmake -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TOOLCHAIN_FILE} . -B build
+cp build/compile_commands.json .

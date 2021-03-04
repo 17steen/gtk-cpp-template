@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+cd build && make && cd src && GTK_DEBUG=interactive ./app
