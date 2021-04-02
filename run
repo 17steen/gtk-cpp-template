@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-cd build && make && cd src && GTK_DEBUG=interactive ./app
+make -C build &&  GTK_DEBUG=interactive ./build/src/app
